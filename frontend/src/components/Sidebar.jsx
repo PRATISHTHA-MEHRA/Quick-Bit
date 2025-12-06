@@ -89,9 +89,9 @@ const Sidebar = () => {
       </p>
 
       <Link
-        to="/catalog"
+        to="/productCatalogue"
         className={`px-4 py-3 rounded-lg flex items-center gap-3 text-sm ${
-          isActive("/catalog")
+          isActive("/productCatalogue")
             ? "bg-blue-100 text-blue-600 font-medium"
             : "text-gray-700 hover:bg-gray-100"
         }`}
